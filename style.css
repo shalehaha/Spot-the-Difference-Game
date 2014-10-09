@@ -1,5 +1,5 @@
 #different {position: absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/HD_PhotoHunt_After_0001_sm.jpg) no-repeat top left;width:400px;height:600px;left:440px;top:166px;z-index:0;}
-#leaf-diff {position:absolute;background: url(chttps://shalehaha.github.io/Spot-the-Difference-Game/ontest_files/leaf.png) no-repeat top left;width:400px;height:600px;left:440px;top:166px;z-index:1;display: none;}
+#leaf-diff {position:absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/leaf.png) no-repeat top left;width:400px;height:600px;left:440px;top:166px;z-index:1;display: none;}
 #light-diff {position:absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/light.png) no-repeat top left;width:400px;height:600px;left:440px;top:166px;display:none;z-index:1;}
 #nolight-diff {position:absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/nolight.png) no-repeat top left;width:400px;height:600px;left:440px;top:166px;display:none;z-index:1;}
 #sauce-diff {position:absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/sauce.png) no-repeat top left;width:400px;height:600px;left:440px;top:166px;display:none;z-index:1;}
