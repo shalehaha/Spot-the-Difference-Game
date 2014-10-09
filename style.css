@@ -5,7 +5,7 @@
 #sauce-diff {position:absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/sauce.png) no-repeat top left;width:400px;height:600px;left:440px;top:166px;display:none;z-index:1;}
 #petal-diff {position:absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/petal.png) no-repeat top left;width:400px;height:600px;left:440px;top:166px;display:none;z-index:1;}
 #transparentmap {z-index:9999;position: absolute;left:440px;top:166px;}
-#form_container {display:none;color:#fff;background:#000;border:2px solid #fff;position:absolute;top:180px;left:150px;z-index:9999999;padding:10px;}
+#form_container {display:none;color:#000;background:#000;border:2px solid #fff;position:absolute;top:180px;left:150px;z-index:9999999;padding:10px;}
 a:link {text-decoration: none;}
 a:visited {text-decoration: none;}
 a:hover {text-decoration: underline;}
