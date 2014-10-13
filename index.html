@@ -3,7 +3,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Spot the Difference Game</title>
-<link href="https://shalehaha.github.io/Spot-the-Difference-Game/style.css" rel="stylesheet" type="text/css" />
+<!-- <link href="https://shalehaha.github.io/Spot-the-Difference-Game/style.css" rel="stylesheet" type="text/css" /> -->
+
+<link href="style.css" rel="stylesheet" type="text/css" />
 
 <!-- Call Jquery -->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -20,7 +22,7 @@ $(document).ready(function() {
 	if($('#leaf-diff').data('clicked') && $('#petal-diff').data('clicked') && $('#light-diff').data('clicked') && $('#nolight-diff').data('clicked') && $('#sauce-diff').data('clicked')) {
 		$('#form_container').css('display', 'inline');
 	}
-	
+
 	});
 });
 </script>
@@ -45,17 +47,19 @@ $(document).ready(function() {
 		<div id="petal-diff"></div>
 		<h1>Spot the Difference Game</h1>
 				<div id="original">
-<p>Let try our new game!!! Can you spot the differences? Click on all five of them in the picture on the right.</p><br />
+<p>Let try our new game!!! Can you spot the differences? Click on all five of them in the picture on the right. <a href="adbinapp://cancel">Skip it.</a></p><br />
 <img src="https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/HD_PhotoHunt_Before_0001_sm.jpg">
 		</div><!-- end original -->
 <div id="form_container">
 
 	<h1>Isn't it amazing?</h1>
 	<div>
-		<a href="adbinapp://confirm/?url=http://www.adobe.com/products/ink-and-slide.html">Go to app stroe download it!</a>
+		<a href="adbinapp://confirm/?url=http://www.adobe.com/products/ink-and-slide.html"  class="button">Go to app stroe download it!</a>
 	</div>
+
+	<br/>
 	<div>
-		<a href="adbinapp://cancel">I don't like this game.</a>
+		<a href="adbinapp://cancel"  class="button">I don't like this game.</a>
 	<div>
 	</div><!--end main -->
 	
