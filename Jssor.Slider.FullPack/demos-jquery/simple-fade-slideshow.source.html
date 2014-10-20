@@ -2,16 +2,16 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width,height=device-height">
     <title>Simple Fade Slideshow Theme - Jssor Slider, Slideshow with Javascript Source Code</title>
 </head>
 <body style="font-family:Arial, Verdana;background-color:#fff;">
     <!-- it works the same with all jquery version from 1.x to 2.x -->
-    <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="https://shalehaha.github.io/Spot-the-Difference-Game/Jssor.Slider.FullPack/js/jquery-1.9.1.min.js"></script>
     <!-- use jssor.slider.mini.js (40KB) or jssor.sliderc.mini.js (32KB, with caption, no slideshow) or jssor.sliders.mini.js (28KB, no caption, no slideshow) instead for release -->
     <!-- jssor.slider.mini.js = jssor.sliderc.mini.js = jssor.sliders.mini.js = (jssor.js + jssor.slider.js) -->
-    <script type="text/javascript" src="../js/jssor.js"></script>
-    <script type="text/javascript" src="../js/jssor.slider.js"></script>
+    <script type="text/javascript" src="https://shalehaha.github.io/Spot-the-Difference-Game/Jssor.Slider.FullPack/js/jssor.js"></script>
+    <script type="text/javascript" src="https://shalehaha.github.io/Spot-the-Difference-Game/Jssor.Slider.FullPack/js/jssor.slider.js"></script>
     <style> 
         .captionOrange, .captionBlack
         {
@@ -59,6 +59,7 @@
             ];
 
             var options = {
+                $FillMode: 0,                        
                 $AutoPlay: false,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
                 $Loop:0,
                 $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
@@ -105,15 +106,21 @@
 
             //responsive code begin
             //you can remove responsive code if you don't want the slider scales while window resizes
-            function ScaleSlider() {
-                var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
-                if (parentWidth)
-                    jssor_slider1.$ScaleWidth(Math.min(parentWidth, 600));
+           function ScaleSlider() {
+                var bodyWidth = document.body.clientWidth;
+                if (bodyWidth)
+                    jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 1920));
+                else
+                    window.setTimeout(ScaleSlider, 30);
+
+                 var bodyHeight = document.body.clientHeight;
+                if (bodyHeight)
+                    jssor_slider1.$ScaleHeight(Math.min(bodyHeight, 1028));
                 else
                     window.setTimeout(ScaleSlider, 30);
             }
 
-            ScaleSlider();
+            // ScaleSlider();
 
             if (!navigator.userAgent.match(/(iPhone|iPod|iPad|BlackBerry|IEMobile)/)) {
                 $(window).bind('resize', ScaleSlider);
@@ -128,7 +135,7 @@
     </script>
     <!-- Jssor Slider Begin -->
     <!-- You can move inline styles to css file or css block. -->
-    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; ">
+    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 1600px; height: 500px; overflow: hidden; ">
 
         <!-- Loading Screen -->
         <div u="loading" style="position: absolute; top: 0px; left: 0px;">
@@ -141,18 +148,17 @@
         </div>
 
         <!-- Slides Container -->
-        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 300px; overflow: hidden;">
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1600px; height: 500px; overflow: hidden;">
             <div>
-                <img u="image" src="../img/landscape/02.jpg" />
+                <img u="image" src="https://shalehaha.github.io/Spot-the-Difference-Game/Jssor.Slider.FullPack/img/landscape/02.jpg" />
             </div>
             <div>
-                <img u="image" src="../img/landscape/03.jpg" />
+                <img u="image" src="https://shalehaha.github.io/Spot-the-Difference-Game/Jssor.Slider.FullPack/img/landscape/03.jpg" />
 
             </div>
             <div>
-                <img u="image" src="../img/landscape/04.jpg" />
-
-                    <a class="captionOrange" href="http://www.jssor.com/demos/index.html" style="position:absolute;top:30px;right:30px;width:200px;">30+ Templates</a>
+                <img u="image" src="https://shalehaha.github.io/Spot-the-Difference-Game/Jssor.Slider.FullPack/img/landscape/04.jpg" />
+                    <a class="captionOrange" href="adbinapp://cancel" style="position:absolute;top:30px;right:30px;width:200px;">Enjoy our new fetures!</a>
             </div>
         </div>
 
@@ -244,7 +250,6 @@
         <span u="arrowright" class="jssora12r" style="width: 30px; height: 46px; top: 123px; right: 0px">
         </span>
         <!-- Arrow Navigator Skin End -->
-        <a style="display: none" href="http://www.jssor.com">jquery slider example</a>
     </div>
     <!-- Jssor Slider End -->
 </body>
