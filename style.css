@@ -1,10 +1,10 @@
-#different {position: absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/HD_PhotoHunt_After_0001_sm.jpg) no-repeat top left;width:400px;height:600px;left:440px;top:128px;z-index:0;}
-#leaf-diff {position:absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/leaf.png) no-repeat top left;width:400px;height:600px;left:440px;top:128px;z-index:1;display: none;}
-#light-diff {position:absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/light.png) no-repeat top left;width:400px;height:600px;left:440px;top:128px;display:none;z-index:1;}
-#nolight-diff {position:absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/nolight.png) no-repeat top left;width:400px;height:600px;left:440px;top:128px;display:none;z-index:1;}
-#sauce-diff {position:absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/sauce.png) no-repeat top left;width:400px;height:600px;left:440px;top:128px;display:none;z-index:1;}
-#petal-diff {position:absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/petal.png) no-repeat top left;width:400px;height:600px;left:440px;top:128px;display:none;z-index:1;}
-#transparentmap {z-index:9999;position: absolute;left:440px;top:128px;}
+#different {position: absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/HD_PhotoHunt_After_0001_sm.jpg) no-repeat top left;width:400px;height:600px;left:440px;top:130px;z-index:0;}
+#leaf-diff {position:absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/leaf.png) no-repeat top left;width:400px;height:600px;left:440px;top:130px;z-index:1;display: none;}
+#light-diff {position:absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/light.png) no-repeat top left;width:400px;height:600px;left:440px;top:130px;display:none;z-index:1;}
+#nolight-diff {position:absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/nolight.png) no-repeat top left;width:400px;height:600px;left:440px;top:130px;display:none;z-index:1;}
+#sauce-diff {position:absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/sauce.png) no-repeat top left;width:400px;height:600px;left:440px;top:130px;display:none;z-index:1;}
+#petal-diff {position:absolute;background: url(https://shalehaha.github.io/Spot-the-Difference-Game/contest_files/petal.png) no-repeat top left;width:400px;height:600px;left:440px;top:130px;display:none;z-index:1;}
+#transparentmap {z-index:9999;position: absolute;left:440px;top:130px;}
 #form_container {display:none;color:#035C3F;background:#fff;border:2px solid #fff;position:absolute;top:180px;left:150px;z-index:9999999;padding:10px;}
 #form_container div{font-size: 20}
 body {color:#000; font-family:helvetica, arial, sans-serif;}
